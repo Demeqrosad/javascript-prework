@@ -2,7 +2,7 @@ function buttonClicked(argButtonName)
 {
   	clearMessages();
   	console.log(argButtonName + ' został kliknięty');
-	playerMove = argButtonName;
+	const playerMove = argButtonName;
 	console.log('ruch gracza to: ' + playerMove);
 	randomNumber = Math.floor(Math.random() * 3 + 1);
 	console.log('wylosowana liczba to: ' + randomNumber);
@@ -50,7 +50,7 @@ function displayResult(argPlayerMove, argComputerMove)
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
 
-var computerMove, playerMove, randomNumber;
+var computerMove, randomNumber;
 
 const buttonRock = document.getElementById('button-rock');
 const buttonPaper = document.getElementById('button-paper');
