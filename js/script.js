@@ -50,8 +50,8 @@ function displayResult(argPlayerMove, argComputerMove)
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
 
-var argButtonName, buttonPaper, buttonRock, buttonScissors, argMoveId, 
-argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber;
+var buttonPaper, buttonRock, buttonScissors,
+computerMove, playerMove, randomNumber;
 
 buttonRock = document.getElementById('button-rock');
 buttonPaper = document.getElementById('button-paper');
